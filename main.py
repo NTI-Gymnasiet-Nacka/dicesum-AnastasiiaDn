@@ -19,12 +19,7 @@ def main():
     for i in range(1, int(user_input[0])+1):
         for j in range(1, int(user_input[1])+1):
             dice_sums.append(i+j)
-
-    def most_frequent(List):
-        return max(set(List), key = List.count )
-    List = dice_sums
-
-    print(most_frequent(List))
+        print(max(set(dice_sums), key =dice_sums.count ))
       
       
 
